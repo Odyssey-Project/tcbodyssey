@@ -76,10 +76,10 @@ output:
   # >> Parameters for deploying to an Easy Installer image.
   easy-installer:
     # >> Output directory of the customized image (REQUIRED):
-    local: output_directory
+    local: output/pre-provisioned
     # >> Information used by Toradex Easy Installer:
-    # name: "My customized image"
-    # description: "My customized image (description)"
+    name: "TorizonCore Team Hackathon Jan 2023"
+    description: "Customized image for the team hackathon done on Jan 2023 to evaluate DevOps workflows"
     # licence: files/custom-licence.html
     # release-notes: files/custom-release-notes.html
     # accept-licence: true
