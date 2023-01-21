@@ -1,2 +1,5 @@
 tcb-env-setup.sh
 output/*
+credentials.zip
+.env
+shared-data.tar.gz

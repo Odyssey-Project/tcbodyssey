@@ -98,9 +98,9 @@ output:
       # >>     obtained by 'torizoncore-builder bundle' command).
       # dir: bundle/
     # >> Provisioning configuration:
-    # provisioning:
+    provisioning:
       # >> For "online" mode, properties "shared-data" and "online-data" must be specified.
       # >> For "offline" mode, property "shared-data" must be specified alone.
-      # mode: "online"
-      # shared-data: "shared-data.tar.gz"
-      # online-data: "${ONLINE_PROVISIONING_DATA:?online provisioning data not supplied}"
+      mode: "online"
+      shared-data: "shared-data.tar.gz"
+      online-data: "${ONLINE_PROVISIONING_DATA:?online provisioning data not supplied}"
