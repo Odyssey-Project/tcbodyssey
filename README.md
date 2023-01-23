@@ -13,5 +13,5 @@ Before the event:
 Setup TCB then run:
 
 ```bash
-export $(cat .env | xargs) && torizoncore-builder build --set ONLINE_PROVISIONING_DATA="$ONLINE_PROVISIONING_DATA"
+export $(cat .env | xargs) && torizoncore-builder build --set MACHINE="colibri-imx6" --set ONLINE_PROVISIONING_DATA="$ONLINE_PROVISIONING_DATA"
 ```
