@@ -2,3 +2,7 @@ storage/
 tuf/
 tcbodyssey-TCB-CUSTOM/
 credentials.zip
+tcb-env-setup.sh
+output/*
+.env
+shared-data.tar.gz
